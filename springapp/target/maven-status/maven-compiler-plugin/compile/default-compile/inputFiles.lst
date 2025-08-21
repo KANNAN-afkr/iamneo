@@ -1,5 +1,7 @@
-D:\StudentManagementSystem\springapp\src\main\java\com\example\springapp\SpringappApplication.java
-D:\StudentManagementSystem\springapp\src\main\java\com\example\springapp\Model\Employee.java
-D:\StudentManagementSystem\springapp\src\main\java\com\example\springapp\Service\EmployeeService.java
-D:\StudentManagementSystem\springapp\src\main\java\com\example\springapp\Repository\EmployeeRepo.java
-D:\StudentManagementSystem\springapp\src\main\java\com\example\springapp\Controller\ApiController.java
+C:\Users\HP\Desktop\iamneo\springapp\src\main\java\com\examly\springapp\SpringappApplication.java
+C:\Users\HP\Desktop\iamneo\springapp\src\main\java\com\examly\springapp\configuration\CorsConfiguration.java
+C:\Users\HP\Desktop\iamneo\springapp\src\main\java\com\examly\springapp\model\Gift.java
+C:\Users\HP\Desktop\iamneo\springapp\src\main\java\com\examly\springapp\controller\GiftController.java
+C:\Users\HP\Desktop\iamneo\springapp\src\main\java\com\examly\springapp\service\GiftService.java
+C:\Users\HP\Desktop\iamneo\springapp\src\main\java\com\examly\springapp\repository\GiftRepo.java
+C:\Users\HP\Desktop\iamneo\springapp\src\main\java\com\examly\springapp\exception\InvalidPhoneNumberException.java
