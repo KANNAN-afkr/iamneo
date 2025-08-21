@@ -16,7 +16,7 @@ public class GiftController {
     @Autowired
     private GiftService giftService;
     
-    @PostMapping("/addGift")
+    @PostMapping("/addGiftoo")
     public ResponseEntity<?> addGift(@RequestBody Gift gift) {
         try {
             Gift savedGift = giftService.addGift(gift);
