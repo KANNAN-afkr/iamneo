@@ -93,10 +93,10 @@ const ApplyForm = () => {
   };
 
   return (
-    <div>
+    <main>
       <h2>Apply to Become a Gift Provider</h2>
-      {successMessage && <div style={{color: 'green'}}>{successMessage}</div>}
-      <form onSubmit={handleSubmit}>
+      {successMessage && <div style={{color: 'green'}} data-testid="success-message">{successMessage}</div>}
+      <form onSubmit={handleSubmit} data-testid="application-form">
         <div>
           <label htmlFor="name">Name:</label>
           <input
@@ -157,9 +157,9 @@ const ApplyForm = () => {
           {errors.phoneNumber && <div style={{color: 'red'}}>{errors.phoneNumber}</div>}
         </div>
 
-        <button type="submit">Submit Application</button>
+        <button type="submit" data-testid="submit-button">Submit Application</button>
       </form>
-    </div>
+    </main>
   );
 };
 

@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <div>
+    <main>
       <h2>Welcome to the Gift Application</h2>
       <p>Join our community of skilled gift providers and bring joy to every occasion!</p>
-      <Link to="/apply">Become a Gift Provider</Link>
-    </div>
+      <Link to="/apply" data-testid="become-provider-link">Become a Gift Provider</Link>
+    </main>
   );
 };
 

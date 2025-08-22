@@ -28,9 +28,9 @@ const DisplayGift = () => {
   };
 
   return (
-    <div>
+    <main>
       <h2>Submitted Gift Applications</h2>
-      <table>
+      <table data-testid="gifts-table">
         <thead>
           <tr>
             <th>ID</th>
@@ -54,7 +54,7 @@ const DisplayGift = () => {
           ))}
         </tbody>
       </table>
-    </div>
+    </main>
   );
 };
 
