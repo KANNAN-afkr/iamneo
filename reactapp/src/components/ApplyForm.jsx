@@ -66,7 +66,10 @@ const ApplyForm = () => {
    });
 
    console.log('Response status:', response.status);
-   const responseText = await response.text();
+      let responseText = '';
+   if (response.text) {  
+     responseText = await response.text();
+   }
    console.log('Response text:', responseText);
 
    if (response.ok) {
