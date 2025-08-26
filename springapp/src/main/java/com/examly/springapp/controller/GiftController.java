@@ -2,6 +2,9 @@ package com.examly.springapp.controller;
 
 import com.examly.springapp.model.Gift;
 import com.examly.springapp.service.GiftService;
+
+import jakarta.persistence.Table;
+
 import com.examly.springapp.exception.InvalidPhoneNumberException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -11,6 +14,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@Table(name="Gifts")
+
 public class GiftController {
     
     @Autowired
